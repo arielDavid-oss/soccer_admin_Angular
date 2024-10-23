@@ -1,0 +1,51 @@
+<div class="max-w-xl mx-auto p-6 bg-white shadow-md rounded-lg">
+    <h1 class="text-2xl font-bold mb-4 text-center">Crear Rol de Partidos</h1>
+  
+    <!-- Formulario para agregar partido -->
+    <form class="space-y-4">
+      <div>
+        <label for="team1" class="block text-sm font-medium text-gray-700">Equipo 1</label>
+        <input type="text" id="team1" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" required>
+      </div>
+  
+      <div>
+        <label for="team2" class="block text-sm font-medium text-gray-700">Equipo 2</label>
+        <input type="text" id="team2" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" required>
+      </div>
+  
+      <div>
+        <label for="date" class="block text-sm font-medium text-gray-700">Fecha</label>
+        <input type="date" id="date" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" required>
+      </div>
+  
+      <div>
+        <label for="time" class="block text-sm font-medium text-gray-700">Hora</label>
+        <input type="time" id="time" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" required>
+      </div>
+  
+      <!-- Botón para agregar partido -->
+      <button type="submit" class="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700">
+        Agregar Partido
+      </button>
+    </form>
+  
+    <!-- Lista de partidos -->
+    <div class="mt-6">
+      <h2 class="text-xl font-semibold mb-4">Partidos Programados</h2>
+      <div class="bg-gray-50 p-4 rounded-lg mb-2 flex justify-between items-center shadow-sm">
+        <div>
+          <p class="font-medium">Equipo 1 vs Equipo 2</p>
+          <p class="text-sm text-gray-500">23 Oct, 20:00</p>
+        </div>
+        <button class="text-red-600 hover:text-red-800">Eliminar</button>
+      </div>
+      <div class="bg-gray-50 p-4 rounded-lg mb-2 flex justify-between items-center shadow-sm">
+        <div>
+          <p class="font-medium">Equipo 3 vs Equipo 4</p>
+          <p class="text-sm text-gray-500">25 Oct, 18:30</p>
+        </div>
+        <button class="text-red-600 hover:text-red-800">Eliminar</button>
+      </div>
+    </div>
+  </div>
+  
